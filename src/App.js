@@ -32,14 +32,23 @@ function App() {
         <section className='download'>
           <h2>ダウンロード</h2>
           <p>iOSアプリはApp Storeからダウンロードできます。</p>
-          <p>注: 現在はストア申請中のためダウンロード不可です</p>
-          <button>App Storeで見る</button>
+          <a
+            className='downloadButton'
+            href='https://apps.apple.com/jp/app/%E3%83%9A%E3%83%83%E3%83%88%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1ai/id6471821040'
+            target='_blank'
+            rel='noreferrer'
+          >
+            App Storeで見る
+          </a>
         </section>
       </main>
       <footer>
         <p>
-          © 2023 AIペット心理診断.{' '}
-          <a href='https://gintrick.com'>GinTrick.inc</a> All rights reserved.
+          © 2023 AIペット心理診断
+          <a href='https://gintrick.com' target='_blank' rel='noreferrer'>
+            GinTrick.inc
+          </a>{' '}
+          All rights reserved.
         </p>
       </footer>
     </div>
