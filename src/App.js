@@ -14,7 +14,7 @@ function App() {
         <section className='intro'>
           <h2>アプリの紹介</h2>
           <p>
-            このアプリは、AI(Chat-Gpt)を使って動物の気持ちを読み解き、吹き出し形式で表示します。
+            このアプリは、AI(ChatGPT)を使って動物の気持ちを読み解き、吹き出し形式で表示します。
           </p>
           <div className='introImages'>
             <img src={homeImg} alt='homeの画像' width='300px' />
