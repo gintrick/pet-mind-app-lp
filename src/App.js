@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <h1>AIペット心理診断</h1>
+        <h1>ペットの気持ちAI</h1>
       </header>
       <main>
         <section className='intro'>
@@ -44,7 +44,7 @@ function App() {
       </main>
       <footer>
         <p>
-          © 2023 AIペット心理診断
+          © 2023 ペットの気持ちAI
           <a href='https://gintrick.com' target='_blank' rel='noreferrer'>
             GinTrick.inc
           </a>{' '}
