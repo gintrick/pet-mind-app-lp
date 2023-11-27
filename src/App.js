@@ -3,6 +3,8 @@ import './App.css';
 
 import homeImg from './images/home.png';
 import resultImg from './images/result.png';
+import appleQR from './images/QR_apple.png';
+import androidQR from './images/QR_android.png';
 
 function App() {
   return (
@@ -29,17 +31,33 @@ function App() {
             <li>スマートフォンで簡単に利用可能</li>
           </ul>
         </section>
-        <section className='download'>
+        <section>
           <h2>ダウンロード</h2>
-          <p>iOSアプリはApp Storeからダウンロードできます。</p>
-          <a
-            className='downloadButton'
-            href='https://apps.apple.com/jp/app/%E3%83%9A%E3%83%83%E3%83%88%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1ai/id6471821040'
-            target='_blank'
-            rel='noreferrer'
-          >
-            App Storeで見る
-          </a>
+          <p>iOS、androidアプリは下記よりダウンロードできます。</p>
+          <div className='downloads'>
+            <div className='download'>
+              <img className='downloadQR' src={appleQR} alt='apple_qr' />
+              <a
+                className='downloadButton apple'
+                href='https://apps.apple.com/jp/app/%E3%83%9A%E3%83%83%E3%83%88%E3%81%AE%E6%B0%97%E6%8C%81%E3%81%A1ai/id6471821040'
+                target='_blank'
+                rel='noreferrer'
+              >
+                App Store
+              </a>
+            </div>
+            <div className='download'>
+              <img className='downloadQR' src={androidQR} alt='android_qr' />
+              <a
+                className='downloadButton google'
+                href='https://play.google.com/store/apps/details?id=com.gintrick.petmindapp'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Google Play
+              </a>
+            </div>
+          </div>
         </section>
       </main>
       <footer>
