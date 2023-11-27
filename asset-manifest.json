@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pet-mind-app-lp/static/css/main.861ce35e.css",
+    "main.css": "/pet-mind-app-lp/static/css/main.c241de05.css",
     "main.js": "/pet-mind-app-lp/static/js/main.213e810a.js",
     "static/js/787.8088e41d.chunk.js": "/pet-mind-app-lp/static/js/787.8088e41d.chunk.js",
     "static/media/result.png": "/pet-mind-app-lp/static/media/result.0945a550b17a1b0a7eda.png",
     "static/media/home.png": "/pet-mind-app-lp/static/media/home.0b0c2acbbaeed9b10403.png",
     "index.html": "/pet-mind-app-lp/index.html",
-    "main.861ce35e.css.map": "/pet-mind-app-lp/static/css/main.861ce35e.css.map",
+    "main.c241de05.css.map": "/pet-mind-app-lp/static/css/main.c241de05.css.map",
     "main.213e810a.js.map": "/pet-mind-app-lp/static/js/main.213e810a.js.map",
     "787.8088e41d.chunk.js.map": "/pet-mind-app-lp/static/js/787.8088e41d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.861ce35e.css",
+    "static/css/main.c241de05.css",
     "static/js/main.213e810a.js"
   ]
 }
