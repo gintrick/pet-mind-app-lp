@@ -3,6 +3,8 @@ import './App.css';
 
 import homeImg from './images/home.png';
 import resultImg from './images/result.png';
+import albumImg from './images/album.png';
+import cameraImg from './images/camera.jpg';
 import appleQR from './images/QR_apple.png';
 import androidQR from './images/QR_android.png';
 
@@ -21,6 +23,14 @@ function App() {
           <div className='introImages'>
             <img src={homeImg} alt='homeの画像' width='300px' />
             <img src={resultImg} alt='resultの画像' width='300px' />
+          </div>
+          <h2>カメラ撮影やアルバム選択</h2>
+          <p>
+            ご自身の愛犬や愛猫を撮ってみましょう！既に撮影してある写真でも診断可能です！
+          </p>
+          <div className='introImages'>
+            <img src={cameraImg} alt='cameraの画像' width='300px' />
+            <img src={albumImg} alt='albumの画像' width='300px' />
           </div>
         </section>
         <section className='features'>
