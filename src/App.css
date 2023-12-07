@@ -91,4 +91,9 @@ footer {
     width: 300px;
     height: 300px;
   }
+
+  .downloads {
+    display: flex;
+    flex-direction: column;
+  }
 }
