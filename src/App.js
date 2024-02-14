@@ -42,6 +42,15 @@ function App() {
           </ul>
         </section>
         <section>
+          <h2>メディア掲載</h2>
+          <iframe
+            className="movie"
+            src="https://www.youtube.com/embed/x03KgLH-GEE?si=cndPmV4vSrIUOr3L"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          />
+        </section>
+        <section>
           <h2>ダウンロード</h2>
           <p>iOS、androidアプリは下記よりダウンロードできます。</p>
           <div className='downloads'>
