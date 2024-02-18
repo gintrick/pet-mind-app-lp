@@ -15,41 +15,6 @@ function App() {
         <h1>ペットの気持ちAI</h1>
       </header>
       <main>
-        <section className='intro'>
-          <h2>アプリの紹介</h2>
-          <p>
-            このアプリは、AI(ChatGPT)を使って動物の気持ちを読み解き、吹き出し形式で表示します。
-          </p>
-          <div className='introImages'>
-            <img src={homeImg} alt='homeの画像' width='300px' />
-            <img src={resultImg} alt='resultの画像' width='300px' />
-          </div>
-          <h2>カメラ撮影やアルバム選択</h2>
-          <p>
-            ご自身の愛犬や愛猫を撮ってみましょう！既に撮影してある写真でも診断可能です！
-          </p>
-          <div className='introImages'>
-            <img src={cameraImg} alt='cameraの画像' width='300px' />
-            <img src={albumImg} alt='albumの画像' width='300px' />
-          </div>
-        </section>
-        <section className='features'>
-          <h2>特徴</h2>
-          <ul>
-            <li>AIによるユーモラスなセリフサジェスト</li>
-            <li>ユーザーフレンドリーなインターフェース</li>
-            <li>スマートフォンで簡単に利用可能</li>
-          </ul>
-        </section>
-        <section>
-          <h2>メディア掲載</h2>
-          <iframe
-            className="movie"
-            src="https://www.youtube.com/embed/x03KgLH-GEE?si=cndPmV4vSrIUOr3L"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          />
-        </section>
         <section>
           <h2>ダウンロード</h2>
           <p>iOS、androidアプリは下記よりダウンロードできます。</p>
@@ -77,6 +42,41 @@ function App() {
               </a>
             </div>
           </div>
+        </section>
+        <section>
+          <h2>メディア掲載</h2>
+          <iframe
+            className='movie'
+            src='https://www.youtube.com/embed/x03KgLH-GEE?si=cndPmV4vSrIUOr3L'
+            title='YouTube video player'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          />
+        </section>
+        <section className='intro'>
+          <h2>アプリの紹介</h2>
+          <p>
+            このアプリは、AI(ChatGPT)を使って動物の気持ちを読み解き、吹き出し形式で表示します。
+          </p>
+          <div className='introImages'>
+            <img src={homeImg} alt='homeの画像' width='300px' />
+            <img src={resultImg} alt='resultの画像' width='300px' />
+          </div>
+          <h2>カメラ撮影やアルバム選択</h2>
+          <p>
+            ご自身の愛犬や愛猫を撮ってみましょう！既に撮影してある写真でも診断可能です！
+          </p>
+          <div className='introImages'>
+            <img src={cameraImg} alt='cameraの画像' width='300px' />
+            <img src={albumImg} alt='albumの画像' width='300px' />
+          </div>
+        </section>
+        <section className='features'>
+          <h2>特徴</h2>
+          <ul>
+            <li>AIによるユーモラスなセリフサジェスト</li>
+            <li>ユーザーフレンドリーなインターフェース</li>
+            <li>スマートフォンで簡単に利用可能</li>
+          </ul>
         </section>
       </main>
       <footer>
