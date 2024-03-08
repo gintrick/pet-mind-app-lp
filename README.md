@@ -1,3 +1,6 @@
+旧ペットの気持ちAIのLPサイト
+新しいのはこちら: https://github.com/gintrick/pet-mind-app-lp2
+
 # サイト
 https://gintrick.github.io/pet-mind-app-lp/
 
